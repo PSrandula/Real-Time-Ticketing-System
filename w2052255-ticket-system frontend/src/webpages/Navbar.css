@@ -1,0 +1,33 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    padding: 30px 20px;
+    background-color: #0e6d95;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .navbar-logo {
+    position: absolute;
+    left: 20px; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 60px; 
+    width: auto;
+  }
+  
+
+  .navbar h1 {
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 40px; 
+    margin: 0; 
+    text-align: center; 
+  }
+  

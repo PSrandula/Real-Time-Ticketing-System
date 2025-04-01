@@ -1,0 +1,8 @@
+{
+  "totalTickets": 10,
+  "ticketReleaseRate": 3,
+  "customerRetrievalRate": 3,
+  "maxTicketCapacity": 20,
+  "eventName": "Spandana",
+  "ticketPrice": 1500.00
+}

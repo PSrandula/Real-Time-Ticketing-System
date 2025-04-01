@@ -1,0 +1,70 @@
+
+.addVendor {
+    max-width: 450px;
+    height: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #a6c3a2;
+    border-radius: 30px;
+    box-shadow: 0 55px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .addVendor h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+
+  .addVendor input {
+    width: 60%;
+    padding: 12px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 54px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+
+  .addVendor input:focus {
+    border-color: #28a745;
+    outline: none;
+  }
+  
+
+  .addVendor button {
+    background-color: #db5c17;
+    margin-left: 20%;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 54px;
+    font-size: 1rem;
+    width: 60%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+
+  .addVendor button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+
+  .addVendor button:disabled {
+    background-color: #003f7f;
+    cursor: not-allowed;
+  }
+  
+
+  @media (max-width: 600px) {
+    .addVendor {
+      padding: 15px;
+      width: 90%;
+    }
+  }
+  

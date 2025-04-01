@@ -1,0 +1,56 @@
+.customerForm {
+    max-width: 450px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    background-color: #a6c3a2; 
+    border-radius: 34px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .customerForm h2 {
+    font-size: 28px; 
+    color: #c76433; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+  }
+  
+  .customerForm input {
+    width: 60%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 54px; 
+    font-size: 1rem; 
+    box-sizing: border-box; 
+  }
+  
+  .customerForm input:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  }
+  
+  .customerForm button {
+    width: 60%;
+    background-color: #db5c17; 
+    color: #fff; 
+    padding: 10px 35px; 
+    border: none;
+    border-radius: 54px;
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .customerForm button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .customerForm button:active {
+    background-color: #003f7f; 
+  }
+  

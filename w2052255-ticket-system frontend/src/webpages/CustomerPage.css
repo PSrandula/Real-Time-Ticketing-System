@@ -1,0 +1,25 @@
+.CustomerDesc {
+    background-color: #badbdf; 
+    border: 3px solid #516ecd; 
+    border-radius: 30px; 
+    padding: 25px; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .CustomerDesc p {
+    font-size: 16px; 
+    color: #475368; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+    text-align: justify;
+  }
+  .title {
+    font-size: 32px; 
+    color: #176a4a; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+  }
+  

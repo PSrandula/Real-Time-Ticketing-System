@@ -1,0 +1,73 @@
+
+.vendor-list {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #d6e9ea;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .vendor-list h2 {
+    text-align: center;
+    color: #126284;
+    margin-bottom: 20px;
+    font-size: 37px;
+  }
+  
+
+  .vendor-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .vendor-list li {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .vendor-list li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+
+  .vendor-list li span.vendor-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+  .vendor-list li span.vendor-email {
+    color: #555;
+    font-style: italic;
+  }
+  
+
+  @media (max-width: 600px) {
+    .vendor-list {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .vendor-list h2 {
+      font-size: 51.5rem;
+    }
+  
+    .vendor-list li {
+      font-size: 0.9rem;
+    }
+  }
+  
